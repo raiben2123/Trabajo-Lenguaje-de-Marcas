@@ -15,7 +15,7 @@
                         <img src="img/logo.png" alt="Logo Unir" width="200" height="200">
                     </a>
                 </td>
-                <td align="center" bgcolor="b68400" colspan="3">
+                <td align="center" bgcolor="b68400">
                     <font face="Arial" color="white" size="7"><b>UNIR FP</b></font>
                     <br><font face="Arial" color="white" size="5">Tu mejor elección</font>
                 </td>
@@ -23,79 +23,96 @@
         </thead>
         <tbody>
             <tr>
-                <td align="center" bgcolor="b68400" width="200" height="100"><a href="quienes_somos.html"><img src="img/quienes somos.png" alt="Quienes somos" height="65" width="65">
+                <td align="center" bgcolor="b68400" width="200" height="85"><a href="quienes_somos.html"><img src="img/quienes somos.png" alt="Quienes somos" height="65" width="65">
                     <br><font color="white" face="Arial">QUIENES SOMOS</font></a>
                 </td>
-                <!-- CELDA A MODIFICAR PRINCIPALMENTE EN EL RESTO DE PÁGINAS -->
-                <td width="300" height="100" align="center"><font face="Arial" color="white">TS Administración de Sistemas 
-                    <br>Informáticos en Red (ASIR)</font></td> 
-                <td width="300" height="100" align="center"><font face="Arial" color="white">TS Desarrollo de Aplicaciones 
-                    <br>Multiplataforma (DAM)</font></td>
-                <td width="300" height="100" align="center"><font face="Arial" color="white">TS Desarrollo de 
-                    <br>Aplicaciones Web (DAW)</font></td>
-                <!-- FIN CELDA MODIFICACIÓN -->
+                <!-- CREAMOS AQUÍ LA TABLA ANIDADA -->
+                <td align="center" rowspan="5">
+                    <table border="1" bordercolor="white">
+                        <tr>
+                           
+                            <td width="300" height="100" align="center"><font face="Arial" color="white">
+                                TS Administración de Sistemas 
+                                <br>Informáticos en Red (ASIR)</font>
+                            </td>
+                            <td width="300" height="100" align="center"><font face="Arial" color="white">
+                                TS Desarrollo de Aplicaciones 
+                                <br>Multiplataforma (DAM)</font>
+                            </td>
+                            <td width="300" height="100" align="center"><font face="Arial" color="white">
+                                TS Desarrollo de 
+                                <br>Aplicaciones Web (DAW)</font>
+                            </td>                           
+                        </tr>
+                        <!--Cuando poníamos un rowspan="2" teníamos problemas de encaje que hemos resuelto aportando el tamaño de la fotografía en cuestión-->
+                        <tr>
+                            <td align="center"><img src="img/ASIR.jpg" alt="Imagen de ASIR" width="250" height="200"></td>
+                            <td align="center"><img src="img/DAM.jpg" alt="Imagen de DAM" width="250" height="200"></td>
+                            <td align="center"><img src="img/DAW.jpg" alt="Imagen de DAW" width="250" height="200"></td>
+                        </tr>
+                        <tr>
+                            <td align="center" height="130"><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333">FP Superior en<br>Administración de Sistemas 
+                                <br>Informáticos en Red (ASIR)</font><font face="Arial" color="white"> serás <br>uno de los profesionales más <br>demandados con tu especialización en <br>hacking ético, pentesting y otros
+                                <br>aspectos de la ciberseguridad que <br>dominarás.</font></font></td>
+                            <td align="center" height="130"><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333"> FP Superior en
+                                <br>Desarrollo de Aplicaciones <br>Multiplataforma (DAM)</font><font face="Arial" color="white"> trabajarás <br>en entornos web, dispositivos móviles,
+                                <br>la nube... y con diferentes lenguajes <br>de programación. Dominarás el <br>proceso de diseño y las tareas de
+                                <br>supervisión en la creación de apps.</font></font></td>
+                            <td align="center" height="130"><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333">FP Superior en 
+                                <br>Desarrollo de Aplicaciones Web <br>(DAW) <font face="Arial" color="white">aprenderás a desarrollar y <br>mantener páginas y apps web de
+                                <br>diferentes modelos con finalidades <br>distintas. Te entrenarás en lenguajes de <br>programación, en bases de datos, en <br>arquitectura y en diseño.
+                                Serás un <br>especialista en MEAN & Full Stack.</font></font></td>
+                        </tr>
+                        <tr>
+                            <td><font face="Arial" color="white" size="2">
+                                <ul>
+                                    <li>Lenguaje de Marcas y Sistemas de Gestión</li>
+                                    <li>Implantación de Sistemas Operativos</li>
+                                    <li>Planificación y Administración de Redes Informáticas</li>
+                                    <li>Fundamentos de Hardware</li>
+                                    <li>Gestión de Base de Datos</li>
+                                    <li>Formación y Orientación Laboral</li>
+                                </ul></font>
+                            </td>
+                            <td colspan="2"><font face="Arial" color="white" size="2">
+                                <ul> 
+                                    <li>Lenguaje de Marcas y Sistemas de Gestión</li>
+                                    <li>Sistemas Informáticos</li>
+                                    <li>Programación</li>
+                                    <li>Entornos de desarrollo</li>
+                                    <li>Base de Datos</li>
+                                    <li>Formación y Orientación Laboral</li>
+                                </ul></font>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--FIN DE LA TABLA ANIDADA-->
+                </td>
             </tr>
             <tr>
-                <td align="center" bgcolor="b68400" width="200" height="100"><a href="titulaciones.html"><img src="img/titulaciones.png" alt="Titulaciones" height="65" width="65">
+                <td align="center" bgcolor="b68400" width="200" height="85"><a href="titulaciones.html"><img src="img/titulaciones.png" alt="Titulaciones" height="65" width="65">
                     <br><font color="white" face="Arial">TITULACIONES</font></a>
                 </td>
-                <td align="center" rowspan="2" ><img src="img/ASIR.jpg" alt="Imagen de ASIR" width="250" height="200"></td>
-                <td align="center" rowspan="2" ><img src="img/DAM.jpg" alt="Imagen de DAM" width="250" height="200"></td>
-                <td align="center" rowspan="2" ><img src="img/DAW.jpg" alt="Imagen de DAW" width="250" height="200"></td>
             </tr>
             <tr>
-                <td align="center" bgcolor="b68400" width="200" height="100"><a href="profesores.html"><img src="img/profesorado.png" alt="Profesorado" height="65" width="65">
+                <td align="center" bgcolor="b68400" width="200" height="85"><a href="profesores.html"><img src="img/profesorado.png" alt="Profesorado" height="65" width="65">
                     <br><font color="white" face="Arial">PROFESORADO</font></a>
                 </td>
             </tr>
             <tr>
-                <td align="center" bgcolor="b68400" width="200" height="100"><a href="horario.html"><img src="img/horarios .png" alt="Horarios" height="65" width="65">
+                <td align="center" bgcolor="b68400" width="200" height="85"><a href="horario.html"><img src="img/horarios .png" alt="Horarios" height="65" width="65">
                     <br><font color="white" face="Arial">HORARIOS</font></a>
                 </td>
-                <!--DEFINICIONES DE LAS TITULACIONES-->
-                <td align="center" rowspan=""><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333">FP Superior en Administración de Sistemas 
-                    Informáticos en Red (ASIR)</font><font face="Arial" color="white"> serás uno de los profesionales más demandados con tu especialización en hacking ético, pentesting y otros
-                    aspectos de la ciberseguridad que dominarás.</font></font></td>
-                <td align="center" rowspan=""><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333"> FP Superior en
-                    Desarrollo de Aplicaciones Multiplataforma (DAM)</font><font face="Arial" color="white"> trabajarás en entornos web, dispositivos móviles,
-                    la nube... y con diferentes lenguajes de programación. Dominarás el proceso de diseño y las tareas de
-                    supervisión en la creación de apps.</font></font></td>
-                <td align="center" rowspan=""><font size="2"><font face="Arial" color="white">Con el ciclo de </font><font face="Arial" color="#333333">FP Superior en 
-                    Desarrollo de Aplicaciones Web (DAW) <font face="Arial" color="white">aprenderás a desarrollar y mantener páginas y apps web de
-                    diferentes modelos con finalidades distintas. Te entrenarás en lenguajes de programación, en bases de datos, en >arquitectura y en diseño.
-                    Serás un especialista en MEAN & Full Stack.</font></font></td>
-                    <!--FIN DE LAS DEFINICIONES-->
             </tr>
             <tr>
-                <td align="center" bgcolor="b68400" width="200" height="100"><a href="ubicacion.html"><img src="img/donde estamos.png" alt="Donde estamos" height="65" width="65">
+                <td align="center" bgcolor="b68400" width="200" height="160"><a href="ubicacion.html"><img src="img/donde estamos.png" alt="Donde estamos" height="65" width="65">
                     <br><font color="white" face="Arial">DONDE ESTAMOS</font></a>
-                </td>
-                <!--PUNTOS DE LAS TITULACIONES-->
-                <td style="border: 1px #fff solid"  rowspan="1"><font face="Arial" color="white" size="2">
-                    <ul>
-                        <li>Lenguaje de Marcas y Sistemas de Gestión</li>
-                        <li>Implantación de Sistemas Operativos</li>
-                        <li>Planificación y Administración de Redes Informáticas</li>
-                        <li>Fundamentos de Hardware</li>
-                        <li>Gestión de Base de Datos</li>
-                        <li>Formación y Orientación Laboral</li>
-                    </ul></font>
-                </td>
-                <td style="border: 1px #fff solid"  colspan="2"><font face="Arial" color="white" size="2">
-                    <ul> 
-                        <li>Lenguaje de Marcas y Sistemas de Gestión</li>
-                        <li>Sistemas Informáticos</li>
-                        <li>Programación</li>
-                        <li>Entornos de desarrollo</li>
-                        <li>Base de Datos</li>
-                        <li>Formación y Orientación Laboral</li>
-                    </ul></font>
                 </td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td colspan="4" align="center" bgcolor="black"><font color="white">@Copyright, creado por los alumnos de UNIR FP Curso 23-24</font></td>
+                <td colspan="2" align="center" bgcolor="black"><font color="white">@Copyright, creado por los alumnos de UNIR FP Curso 23-24</font></td>
             </tr>
         </tfoot>
     </table>
