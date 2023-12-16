@@ -7,7 +7,9 @@
     <link rel="icon" type="image/x-icon" href="icon/Logo_UNIR.png">
 </head>
 <body bgcolor="#006C8F">
+    <!-- A partir de aquí empieza la tabla Principal -->
     <table align="center" width="1000" height="767.5" border="1" bordercolor="white">
+        <!-- Primera fila y le ponemos el thead para que el navegador reconozca esa fila como el encabezado de la tabla -->
         <thead>
             <tr>
                 <td width="200" height="200" bgcolor="white">
@@ -21,64 +23,83 @@
             </td>
             </tr>
         </thead>
+        <!-- Fin de la primera fila y thead y comienzo del cuerpo de la tabla (El resto de las filas) -->
         <tbody>
             <tr>
+                <!-- Segunda fila -->
                 <td align="center" bgcolor="b68400" width="200" height="100"><a href="quienes_somos.html"><img src="img/quienes somos.png" alt="Quienes somos" height="65" width="65">
                     <br><font color="white" face="Arial">QUIENES SOMOS</font></a>
                 </td>
-                <!-- CELDA A MODIFICAR PRINCIPALMENTE EN EL RESTO DE PÁGINAS -->
+                <!-- CELDA A MODIFICAR EN EL RESTO DE PÁGINAS EN LA CUAL ESTARÁ EL CONTENIDO PRINCIPAL-->
                 <td rowspan="5">
+                    <!-- Comienzo de tabla anidada en la página de profesores -->
                     <table border="1" bordercolor="white" width="100%" height="100%">
-                        <tr>
-                            <td align=center height="100" width="104">Tomás Escudero</td>
-                            <td align=center height="100" width="104">Raúl Salgado</td>
-                            <td align=center height="100" width="104">Alfredo Cordero</td>
-                            <td align=center height="100" width="104">Raúl Rodríguez Mercado</td>
-                            <td align=center height="100" width="104">Alberto Castedo</td>
-                        </tr>
-                        <tr>
-                            <td align="center"><img src="img/TomasEscuderoDelgado.jpeg" height="200" width="150" alt="Foto Tomas Escudero"></td>
-                            <td align="center"><img src="img/RaulSalgadoVilas.jpeg" height="200" width="150" alt="Foto Raul Salgado"></td>
-                            <td align="center"><img src="img/profesorSpiderman.jpg" height="200" width="150" alt="Foto Alfredo Cordero"></td>
-                            <td align="center"><img src="img/RaulRodriguezMercado.jpeg" height="200" width="150" alt="Foto Raúl Rodríguez"></td>
-                            <td align="center"><img src="img/AlbertoCastedo.jpeg" height="200" width="150" alt="Foto Alberto Castedo"></td>
-                        </tr>
-                        <tr>
-                            <td align=center height="200" width="104">Entornos de desarrollo <br> Programación</td>
-                            <td align=center height="200" width="104">Bases de datos</td>
-                            <td align=center height="200" width="104">Formación y orientación laboral <br> Formación en Centros de Trabajo</td>
-                            <td align=center height="200" width="104">Lenguaje de marcas y sistemas</td>
-                            <td align=center height="200" width="104">Sistemas informáticos</td>
-                        </tr>
+                        <!-- Primera fila de la tabla anidada y encabezado de la misma-->
+                        <thead>
+                            <tr>
+                                <td align=center height="100" width="104">Tomás Escudero</td>
+                                <td align=center height="100" width="104">Raúl Salgado</td>
+                                <td align=center height="100" width="104">Alfredo Cordero</td>
+                                <td align=center height="100" width="104">Raúl Rodríguez Mercado</td>
+                                <td align=center height="100" width="104">Alberto Castedo</td>
+                            </tr>
+                        </thead>
+                        <!-- Fin del thead de la tabla anidada e inicio de tbody de la tabla anidada -->
+                        <tbody>
+                            <!-- Segunda fila de la tabla anidada -->
+                            <tr>
+                                <td align="center"><img src="img/TomasEscuderoDelgado.jpeg" height="200" width="150" alt="Foto Tomas Escudero"></td>
+                                <td align="center"><img src="img/RaulSalgadoVilas.jpeg" height="200" width="150" alt="Foto Raul Salgado"></td>
+                                <td align="center"><img src="img/profesorSpiderman.jpg" height="200" width="150" alt="Foto Alfredo Cordero"></td>
+                                <td align="center"><img src="img/RaulRodriguezMercado.jpeg" height="200" width="150" alt="Foto Raúl Rodríguez"></td>
+                                <td align="center"><img src="img/AlbertoCastedo.jpeg" height="200" width="150" alt="Foto Alberto Castedo"></td>
+                            </tr>
+                            <!-- Tercera fila de la tabla anidada -->
+                            <tr>
+                                <td align=center height="200" width="104">Entornos de desarrollo <br> Programación</td>
+                                <td align=center height="200" width="104">Bases de datos</td>
+                                <td align=center height="200" width="104">Formación y orientación laboral <br> Formación en Centros de Trabajo</td>
+                                <td align=center height="200" width="104">Lenguaje de marcas y sistemas</td>
+                                <td align=center height="200" width="104">Sistemas informáticos</td>
+                            </tr>
+                        </tbody>
+                        <!-- Fin del tbody de la tabla anidada -->
                     </table>
+                    <!-- Fin de la tabla anidada -->
                 </td>            
             </tr>
+            <!-- Tercera fila -->
             <tr>
                 <td align="center" bgcolor="b68400" width="200" height="100"><a href="titulaciones.html"><img src="img/titulaciones.png" alt="Titulaciones" height="65" width="65">
                     <br><font color="white" face="Arial">TITULACIONES</font></a>
                 </td>
             </tr>
+            <!-- Cuarta fila -->
             <tr>
                 <td align="center" bgcolor="b68400" width="200" height="100"><a href="profesores.html"><img src="img/profesorado.png" alt="Profesorado" height="65" width="65">
                     <br><font color="white" face="Arial">PROFESORADO</font></a>
                 </td>
             </tr>
+            <!-- Quinta fila -->
             <tr>
                 <td align="center" bgcolor="b68400" width="200" height="100"><a href="horario.html"><img src="img/horarios .png" alt="Horarios" height="65" width="65">
                     <br><font color="white" face="Arial">HORARIOS</font></a>
                 </td>
             </tr>
+            <!-- Sexta fila -->
             <tr>
                 <td align="center" bgcolor="b68400" width="200" height="100"><a href="ubicacion.html"><img src="img/donde estamos.png" alt="Donde estamos" height="65" width="65">
                     <br><font color="white" face="Arial">DONDE ESTAMOS</font></a>
                 </td>
             </tr>
         </tbody>
+        <!-- Fin del cuerpo de la tabla y ponemos tfoot para que el navegador reconozca que en esa parte de la tabla está el pie de la misma -->
         <tfoot>
             <tr>
                 <td colspan="2" align="center" bgcolor="black"><font color="white">@Copyright, creado por los alumnos de UNIR FP Curso 23-24</font></td>
             </tr>
         </tfoot>
     </table>
+    <!-- Fin de la tabla -->
 </body>
 </html>
